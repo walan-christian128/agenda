@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+	<meta charset="utf-8">
+	<title>Novo Contato</title>
+	<link rel="icon" href="img/6989139_disease_diagnosis_healthcare_checkup_virus_icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Criar novo contato</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td>
+					<input type="text" name="nome" placeholder="Nome" class="Caixa1">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<input type="text" name="fone" placeholder="Fone" class="Caixa2">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<input type="text" name="email" placeholder="Email" class="Caixa1">
+				</td>
+			</tr>
+
+		</table>
+           <input type="button" value="Adicionar" class="button" onclick="validar()">
+	</form>
+	<script src="scripts/validator.js"></script>
+</body>
+
+</html>
